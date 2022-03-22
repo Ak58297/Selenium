@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="AcademyPackage.ListnerClass"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="AcademyPackage.SlidderTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Initializedriver"/>
+          <include name="TestSlidderPage"/>
+        </methods>
+      </class> <!-- AcademyPackage.SlidderTest -->
+      <class name="AcademyPackage.TestingUIpageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Initializedriver"/>
+        </methods>
+      </class> <!-- AcademyPackage.TestingUIpageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

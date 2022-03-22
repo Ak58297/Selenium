@@ -1,69 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+<testng-results ignored="1" total="12" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-01T11:06:43 IST" name="Suite" finished-at="2022-03-01T11:06:44 IST" duration-ms="92">
+  <suite started-at="2022-03-20T08:21:53 IST" name="Suite" finished-at="2022-03-20T08:21:53 IST" duration-ms="74">
     <groups>
+      <group name="SmokeTest">
+        <method signature="NewClass1.newMethod4()[pri:0, instance:test_two.NewClass1@66498326]" name="newMethod4" class="test_two.NewClass1"/>
+        <method signature="NewClasstwo.newMethod2()[pri:0, instance:test_two.NewClasstwo@57af006c]" name="newMethod2" class="test_two.NewClasstwo"/>
+      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2022-03-01T11:06:43 IST" name="scenario1" finished-at="2022-03-01T11:06:44 IST" duration-ms="37">
-      <class name="test.demo">
-        <test-method is-config="true" signature="m2()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:43 IST" name="m2" finished-at="2022-03-01T11:06:43 IST" duration-ms="4" status="PASS">
+    <test started-at="2022-03-20T08:21:53 IST" name="package-two" finished-at="2022-03-20T08:21:53 IST" duration-ms="74">
+      <class name="test_two.NewClassThree">
+        <test-method signature="checkmethod(java.lang.String,java.lang.String)[pri:0, instance:test_two.NewClassThree@6d3a388c]" started-at="2022-03-20T08:21:53 IST" name="checkmethod" data-provider="UserPass" finished-at="2022-03-20T08:21:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="m5()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="m5" finished-at="2022-03-01T11:06:44 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- checkmethod -->
+        <test-method signature="checkmethod(java.lang.String,java.lang.String)[pri:0, instance:test_two.NewClassThree@6d3a388c]" started-at="2022-03-20T08:21:53 IST" name="checkmethod" data-provider="UserPass" finished-at="2022-03-20T08:21:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m5 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="beforeMethod" finished-at="2022-03-01T11:06:44 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- checkmethod -->
+        <test-method signature="checkmethod(java.lang.String,java.lang.String)[pri:0, instance:test_two.NewClassThree@6d3a388c]" started-at="2022-03-20T08:21:53 IST" name="checkmethod" data-provider="UserPass" finished-at="2022-03-20T08:21:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="m1()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="m1" finished-at="2022-03-01T11:06:44 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- checkmethod -->
+      </class> <!-- test_two.NewClassThree -->
+      <class name="test_two.NewClass1">
+        <test-method signature="newMethod1()[pri:0, instance:test_two.NewClass1@66498326]" started-at="2022-03-20T08:21:53 IST" name="newMethod1" finished-at="2022-03-20T08:21:53 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="beforeMethod" finished-at="2022-03-01T11:06:44 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- newMethod1 -->
+        <test-method signature="newMethod2()[pri:0, instance:test_two.NewClass1@66498326]" started-at="2022-03-20T08:21:53 IST" name="newMethod2" finished-at="2022-03-20T08:21:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="m3()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="m3" finished-at="2022-03-01T11:06:44 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- newMethod2 -->
+        <test-method signature="newMethod3()[pri:0, instance:test_two.NewClass1@66498326]" started-at="2022-03-20T08:21:53 IST" name="newMethod3" finished-at="2022-03-20T08:21:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="beforeMethod" finished-at="2022-03-01T11:06:44 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- newMethod3 -->
+        <test-method signature="newMethod4()[pri:0, instance:test_two.NewClass1@66498326]" started-at="2022-03-20T08:21:53 IST" name="newMethod4" finished-at="2022-03-20T08:21:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="m4()[pri:0, instance:test.demo@50b5ac82]" started-at="2022-03-01T11:06:44 IST" name="m4" finished-at="2022-03-01T11:06:44 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- newMethod4 -->
+      </class> <!-- test_two.NewClass1 -->
+      <class name="test_two.NewClasstwo">
+        <test-method signature="newMethod2()[pri:0, instance:test_two.NewClasstwo@57af006c]" started-at="2022-03-20T08:21:53 IST" name="newMethod2" finished-at="2022-03-20T08:21:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m4 -->
-      </class> <!-- test.demo -->
-      <class name="test.class1">
-        <test-method is-config="true" signature="method1()[pri:0, instance:test.class1@50ad3bc1]" started-at="2022-03-01T11:06:44 IST" name="method1" finished-at="2022-03-01T11:06:44 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- newMethod2 -->
+        <test-method signature="newMethod3(java.lang.String)[pri:0, instance:test_two.NewClasstwo@57af006c]" started-at="2022-03-20T08:21:53 IST" name="newMethod3" finished-at="2022-03-20T08:21:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thisIsGlobalVariable]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-      </class> <!-- test.class1 -->
-    </test> <!-- scenario1 -->
-    <test started-at="2022-03-01T11:06:44 IST" name="scenario2" finished-at="2022-03-01T11:06:44 IST" duration-ms="7">
-      <class name="test.class4">
-        <test-method signature="method1()[pri:0, instance:test.class4@1da2cb77]" started-at="2022-03-01T11:06:44 IST" name="method1" finished-at="2022-03-01T11:06:44 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- newMethod3 -->
+        <test-method signature="newMethod4()[pri:0, instance:test_two.NewClasstwo@57af006c]" started-at="2022-03-20T08:21:53 IST" name="newMethod4" finished-at="2022-03-20T08:21:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-      </class> <!-- test.class4 -->
-      <class name="test.class3">
-        <test-method is-config="true" signature="method23()[pri:0, instance:test.class3@611889f4]" started-at="2022-03-01T11:06:43 IST" name="method23" finished-at="2022-03-01T11:06:43 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- newMethod4 -->
+        <test-method signature="newMethod5()[pri:0, instance:test_two.NewClasstwo@57af006c]" started-at="2022-03-20T08:21:53 IST" name="newMethod5" finished-at="2022-03-20T08:21:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method23 -->
-        <test-method signature="method1()[pri:0, instance:test.class3@611889f4]" started-at="2022-03-01T11:06:44 IST" name="method1" finished-at="2022-03-01T11:06:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-      </class> <!-- test.class3 -->
-    </test> <!-- scenario2 -->
+        </test-method> <!-- newMethod5 -->
+      </class> <!-- test_two.NewClasstwo -->
+    </test> <!-- package-two -->
   </suite> <!-- Suite -->
 </testng-results>

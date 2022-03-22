@@ -11,8 +11,10 @@
 	</section>
 	<section name="RefactoringWizard.Convert from JUnit">
 		<item key="width" value="730"/>
-		<item key="height" value="650"/>
+		<item key="height" value="616"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="moveWizard.updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
 	</section>
 </section>

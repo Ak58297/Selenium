@@ -18,7 +18,7 @@ public class class3 {
 	@BeforeSuite
 	public void method23()
 	{
-		System.out.println("After suiet: This will triger before a the package ");
+		System.out.println("After suite: This will triger before a the package ");
 	}
 
 }
