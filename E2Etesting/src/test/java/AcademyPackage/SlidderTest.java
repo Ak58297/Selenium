@@ -18,7 +18,7 @@ public class SlidderTest extends BaseClass {
 	public WebDriver driver;
 	
 	@BeforeTest
-	public void Initializedriver() throws IOException
+	public void InitializeThedriver() throws IOException
 	{
 		driver=InitializeDriver();
 		

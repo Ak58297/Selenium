@@ -35,7 +35,7 @@ public class BaseClass {
 		
 		if(browserName.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\\\ABHISHEK KUMAR\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\\\ABHISHEK KUMAR\\\\Downloads\\\\chromedriver_win32\\\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		if(browserName.equalsIgnoreCase("InternetExplorer"))

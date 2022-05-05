@@ -21,8 +21,8 @@ public class Assignment1 {
 		driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).click();
 		System.out.println(driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).isSelected());
 		Assert.assertTrue(driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).isSelected());
-		driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).click();
-		Assert.assertFalse(driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).isSelected());
+		//driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).click();
+		//Assert.assertTrue(driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).isSelected());
 
 		
 		//Count
@@ -34,8 +34,15 @@ public class Assignment1 {
 		driver.switchTo().alert().accept();
 		//driver.switchTo().alert().dismiss();
 		
+		//confirm Alert
+		driver.findElement(By.xpath("//*[@id='confirmbtn']")).click();
+		System.out.println(driver.switchTo().alert().getText());
+		driver.switchTo().alert().dismiss();
+		driver.close();
 		
-		//driver.quit();
+		
+		
+		
 	}
 
 }

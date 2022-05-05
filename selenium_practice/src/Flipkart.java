@@ -43,9 +43,10 @@ public class Flipkart {
 
 		// switch to new window
 		/*
-		 * Set<String> windows= driver.getWindowHandles(); Iterator<String> it
-		 * =windows.iterator(); String Childwindow=it.next(); String
-		 * Parentwindow=it.next();
+		 * Set<String> windows= driver.getWindowHandles(); 
+		 * Iterator<String> it=windows.iterator();
+		 * String Childwindow=it.next(); 
+		 * StringParentwindow=it.next();
 		 */
 
 //select a KILLER Brand
@@ -74,7 +75,7 @@ public class Flipkart {
 					while(it.hasNext())
 					{
 						driver.switchTo().window(it.next());
-						System.out.println(driver.getTitle());
+						System.out.println("title : "+driver.getTitle());
 						Thread.sleep(2000L);
 					}
 					

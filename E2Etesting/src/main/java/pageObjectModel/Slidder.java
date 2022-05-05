@@ -24,7 +24,6 @@ public class Slidder {
 	By sliderbutton=By.xpath("//span[@tabindex='0']");
 
 	public WebElement getsliderbutton() {
-		// TODO Auto-generated method stub
 		return driver.findElement(sliderbutton);
 	}
 	
@@ -32,7 +31,6 @@ public class Slidder {
 	By sliderheading=By.xpath("//h1[text()='Slider']");
 
 	public WebElement getsliderHeading() {
-		// TODO Auto-generated method stub
 		return driver.findElement(sliderheading);
 	}
 }

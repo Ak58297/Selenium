@@ -3,7 +3,7 @@ package test_two;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-@Test
+
 public class NewClasstwo {
 	@Test(groups={"SmokeTest"})
 	public void newMethod2() {

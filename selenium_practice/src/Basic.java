@@ -15,7 +15,7 @@ public class Basic {
 	public static void main(String[] args) {
 
 		/*
-		 * • ChromeDriver: It is a class that has all the methods to automate in chrome.
+		 * • ChromeDriver: It is a interface that has all the methods to automate in chrome.
 		 * • driver: driver object will have all the access of the methods of
 		 * Chromedriver • There will be no difference in method name for different
 		 * browser • Webdriver is an Interface that provides a set of automatable
@@ -92,7 +92,7 @@ public class Basic {
 		//driver.findElement(By.xpath("//*[@id='inputGroupFile02']")).click();
 		
 	
-		driver.findElement(By.xpath("//*[@id='inputGroupFile02']")).sendKeys("C:\\Users\\ABHISHEK KUMAR\\test.png");
+		//driver.findElement(By.xpath("//*[@id='inputGroupFile02']")).sendKeys("C:\\Users\\ABHISHEK KUMAR\\test.png");
 	//driver.findElement(By.xpath("//*[@id='inputGroupFile02']")).sendKeys(Keys.ENTER);
 		// driver.close();
 		//driver.quit();

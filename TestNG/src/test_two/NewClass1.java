@@ -2,7 +2,7 @@ package test_two;
 
 import org.testng.annotations.Test;
 
-@Test
+
 public class NewClass1 {
 	@Test
 	public void newMethod1() {

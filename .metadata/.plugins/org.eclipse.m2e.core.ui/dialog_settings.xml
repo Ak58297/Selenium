@@ -50,14 +50,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="AmazonTest"/>
 			<item value="NewAcademy.newproj"/>
 			<item value="AcademyPackage"/>
 		</list>
 		<list key="groupId">
+			<item value="FrameworkFromScratch"/>
 			<item value="NewAcademy"/>
 			<item value="Academy"/>
 		</list>
 		<list key="artifactId">
+			<item value="Amazon"/>
 			<item value="newproj"/>
 			<item value="E2Etesting"/>
 		</list>
