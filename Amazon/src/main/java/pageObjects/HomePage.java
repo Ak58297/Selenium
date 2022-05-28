@@ -32,7 +32,7 @@ public class HomePage extends DriverInitialization {
 	By IndianCurrency=By.xpath("//li[@tabindex='0' and @class='a-dropdown-item' and @id='INR']");
 	By SaveChangesForCurrency=By.xpath("(//*[contains(text(),'Save Changes')])[2]");
 	By OnAmazonPageText=By.xpath("(//div[@id='desktop-banner-stripe']//div//span)");
-	
+	By BackToTop=By.xpath("//span[contains(text(),'Back to top')]");
 	
 	
 	public HomePage(WebDriver driver)
@@ -73,6 +73,20 @@ public class HomePage extends DriverInitialization {
 		return driver.findElement(CartValue).getText();
 	}
 	
+	
+	
+	
+	public void ScrollToBottomAndThenToTop()
+	{
+		JavascriptExecutor j= (JavascriptExecutor) driver;
+		j.executeScript("window.scroll(0,4500)");
+		driver.findElement(BackToTop).click();
+		
+	}
+	
+	
+	
+	
 	public void ChangeCurrency() 
 	{
 		try
@@ -91,10 +105,8 @@ public class HomePage extends DriverInitialization {
 			js.executeScript("arguments[0].click();", driver.findElement(SaveChangesForCurrency));
 			
 		}
-		
-		
-		
-		
+	
+	
 		
 	}
 	

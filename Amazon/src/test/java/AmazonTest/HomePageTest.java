@@ -3,6 +3,7 @@ package AmazonTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import baseTest.CloseTheBrowser;
 import baseTest.NavigateToURL;
 import pageObjects.HomePage;
 
@@ -13,8 +14,7 @@ public class HomePageTest extends NavigateToURL {
 	public void HomePageTest() throws Throwable
 	{
 		URL();
-		HomePage h=new HomePage(driver);
-		
+		HomePage h=new HomePage(driver);		
 		h.AmazonLableMethod().isDisplayed();
 		h.DontChangePOPUP().click();
 		h.moveHoverClickOnSignButton();
@@ -24,6 +24,8 @@ public class HomePageTest extends NavigateToURL {
 		h.ChangeCurrency();
 		
 		h.compareTwoStringOnHomePage();		
+		h.ScrollToBottomAndThenToTop();
+		//CloseTheBrowser.CloseCurrentBrowser();
+		
 	}
-
 }

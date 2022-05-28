@@ -15,7 +15,7 @@ public class AmazonTest {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\ABHISHEK KUMAR\\Downloads\\chromedriver_win32\\chromedriver.exe");
+				"C:\\\\Work\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
