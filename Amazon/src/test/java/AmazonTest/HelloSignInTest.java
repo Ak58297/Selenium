@@ -1,7 +1,9 @@
 package AmazonTest;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
+import baseTest.CloseTheBrowser;
 import baseTest.NavigateToURL;
 import pageObjects.HelloSignInPage;
 
@@ -20,7 +22,8 @@ public class HelloSignInTest extends NavigateToURL {
 		hp.Wait();
 		hp.getSportsItem().click();
 		hp.getSportsAndFitness().click();
-		
+
+		CloseTheBrowser.CloseCurrentBrowser();
 		
 	}
 

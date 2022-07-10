@@ -2,8 +2,6 @@ package baseTest;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.WebDriver;
-
 public class NavigateToURL extends DriverInitialization {
 	static String SiteURL;
 

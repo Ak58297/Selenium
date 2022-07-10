@@ -6859,3 +6859,74 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2022-05-28 09:46:53,713 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Assigments\src\main\resources
 2022-05-28 09:46:53,714 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-28 09:46:53,715 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Assigments\src\test\resources
+2022-06-07 20:27:35,326 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-08 21:52:24,161 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:52:24,164 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 21:52:24,166 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:52:24,166 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 21:53:18,460 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:53:18,460 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 21:53:18,462 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:53:18,462 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 21:55:19,669 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:55:19,670 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 21:55:19,671 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:55:19,672 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 21:55:46,207 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:55:46,207 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 21:55:46,208 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 21:55:46,208 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:07:30,478 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:07:30,480 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:07:30,483 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:07:30,485 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:09:22,615 [Worker-23: Launching Amazon_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:09:22,616 [Worker-23: Launching Amazon_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:09:22,617 [Worker-23: Launching Amazon_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:09:22,617 [Worker-23: Launching Amazon_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:17:09,988 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:17:09,990 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:17:09,993 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:17:09,993 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:21:28,667 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:21:28,668 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:21:28,673 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:21:28,674 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:21:56,483 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:21:56,484 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:21:56,485 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:21:56,485 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:24:37,424 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:24:37,425 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:24:37,426 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:24:37,426 [Worker-23: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:26:19,277 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:26:19,278 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:26:19,280 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:26:19,281 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:27:31,845 [Worker-35: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:27:31,845 [Worker-35: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:27:31,846 [Worker-35: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:27:31,847 [Worker-35: Launching HelloSignInTest.HelloSignInTestMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:28:17,879 [Worker-35: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:28:17,879 [Worker-35: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:28:17,880 [Worker-35: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:28:17,881 [Worker-35: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-08 22:29:14,222 [Worker-23: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:29:14,222 [Worker-23: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-06-08 22:29:14,224 [Worker-23: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 22:29:14,224 [Worker-23: Launching HomePageTest.HomePageTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-06-09 10:38:30,534 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-18 12:08:07,381 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-18 12:08:07,741 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-06-19 20:20:22,962 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-21 10:40:36,400 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-21 19:40:27,770 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-21 22:00:54,609 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-22 12:20:35,534 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-22 12:30:52,042 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-24 20:10:06,067 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-25 11:43:09,192 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-25 12:11:08,966 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-06 17:32:18,568 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-07-07 17:59:19,185 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

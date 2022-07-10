@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AmazonTest.HelloSignInTest">
+      <class name="AmazonTest.HomePageTest">
         <methods>
-          <include name="HelloSignInTestMethod"/>
+          <include name="HomePageTest"/>
         </methods>
-      </class> <!-- AmazonTest.HelloSignInTest -->
-      <class name="AmazonTest.SportsAndFitnessTest">
-        <methods>
-          <include name="SportsAndFitnessTestMethod"/>
-        </methods>
-      </class> <!-- AmazonTest.SportsAndFitnessTest -->
+      </class> <!-- AmazonTest.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

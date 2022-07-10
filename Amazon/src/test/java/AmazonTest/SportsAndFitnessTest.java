@@ -1,6 +1,7 @@
 package AmazonTest;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import pageObjects.SpotsAndfitnessPage;
 
 public class SportsAndFitnessTest extends HelloSignInTest {
