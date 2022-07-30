@@ -23,7 +23,7 @@ public class HelloSignInTest extends NavigateToURL {
 		hp.getSportsItem().click();
 		hp.getSportsAndFitness().click();
 
-		CloseTheBrowser.CloseCurrentBrowser();
+		//CloseTheBrowser.CloseCurrentBrowser();
 		
 	}
 

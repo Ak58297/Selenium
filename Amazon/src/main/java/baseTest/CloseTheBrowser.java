@@ -12,7 +12,7 @@ public class CloseTheBrowser extends DriverInitialization{
 	
 	public static void CloseCurrentBrowser() throws Throwable
 	{
-		driver = InitializeDriver();
+		//driver = InitializeDriver();
 		driver.quit();
 	}
 

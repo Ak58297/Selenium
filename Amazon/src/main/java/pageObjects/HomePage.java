@@ -33,6 +33,7 @@ public class HomePage extends DriverInitialization {
 	By SaveChangesForCurrency=By.xpath("(//*[contains(text(),'Save Changes')])[2]");
 	By OnAmazonPageText=By.xpath("(//div[@id='desktop-banner-stripe']//div//span)");
 	By BackToTop=By.xpath("//span[contains(text(),'Back to top')]");
+
 	
 	
 	public HomePage(WebDriver driver)

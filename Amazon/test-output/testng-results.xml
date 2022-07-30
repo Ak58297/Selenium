@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-08T22:29:16 IST" name="Default suite" finished-at="2022-06-08T22:29:40 IST" duration-ms="24472">
+  <suite started-at="2022-07-30T12:04:52 IST" name="Suite" finished-at="2022-07-30T12:06:11 IST" duration-ms="79347">
     <groups>
     </groups>
-    <test started-at="2022-06-08T22:29:16 IST" name="Default test" finished-at="2022-06-08T22:29:40 IST" duration-ms="24472">
-      <class name="AmazonTest.HomePageTest">
-        <test-method signature="HomePageTest()[pri:0, instance:AmazonTest.HomePageTest@543588e6]" started-at="2022-06-08T22:29:16 IST" name="HomePageTest" finished-at="2022-06-08T22:29:40 IST" duration-ms="24431" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2022-07-30T12:04:52 IST" name="Test" finished-at="2022-07-30T12:06:11 IST" duration-ms="79347">
+      <class name="AmazonTest.SportsAndFitnessTest">
+        <test-method signature="HelloSignInTestMethod()[pri:0, instance:AmazonTest.SportsAndFitnessTest@503f91c3]" started-at="2022-07-30T12:04:52 IST" name="HelloSignInTestMethod" finished-at="2022-07-30T12:05:15 IST" duration-ms="23290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelloSignInTestMethod -->
+        <test-method signature="SportsAndFitnessTestMethod()[pri:0, instance:AmazonTest.SportsAndFitnessTest@503f91c3]" started-at="2022-07-30T12:05:54 IST" name="SportsAndFitnessTestMethod" finished-at="2022-07-30T12:06:11 IST" depends-on-methods="AmazonTest.HelloSignInTest.HelloSignInTestMethod" duration-ms="16900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SportsAndFitnessTestMethod -->
+      </class> <!-- AmazonTest.SportsAndFitnessTest -->
+      <class name="AmazonTest.FailSignIn_WithWrongCred">
+        <test-method signature="SignIn()[pri:0, instance:AmazonTest.FailSignIn_WithWrongCred@32115b28]" started-at="2022-07-30T12:05:37 IST" name="SignIn" finished-at="2022-07-30T12:05:53 IST" duration-ms="16186" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='desktop-banner-stripe']//div//span)"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[element not interactable
+  (Session info: chrome=103.0.5060.134)
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'LAPTOP-00TCO18I', ip: '192.168.29.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [645366fb8b14e8f1a74b829800201f90, findElement {using=xpath, value=(//div[@id='desktop-banner-stripe']//div//span)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56445/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 645366fb8b14e8f1a74b829800201f90]]>
+Command: [0236fdaa4095a8ec2c3ab26f595c7f94, clickElement {id=5d7a19a7-1983-4ece-9490-3ae3201ecf1a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55610/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0236fdaa4095a8ec2c3ab26f595c7f94)] -> xpath: (//*[(text()='Sign in')])[1]]
+Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='desktop-banner-stripe']//div//span)"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'LAPTOP-00TCO18I', ip: '192.168.29.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [645366fb8b14e8f1a74b829800201f90, findElement {using=xpath, value=(//div[@id='desktop-banner-stripe']//div//span)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56445/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 645366fb8b14e8f1a74b829800201f90
+Command: [0236fdaa4095a8ec2c3ab26f595c7f94, clickElement {id=5d7a19a7-1983-4ece-9490-3ae3201ecf1a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55610/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0236fdaa4095a8ec2c3ab26f595c7f94)] -> xpath: (//*[(text()='Sign in')])[1]]
+Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -42,13 +52,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at pageObjects.HomePage.OnAmazonPagelongtext(HomePage.java:115)
-at pageObjects.HomePage.compareTwoStringOnHomePage(HomePage.java:121)
-at AmazonTest.HomePageTest.HomePageTest(HomePageTest.java:26)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at pageObjects.HomePage.moveHoverClickOnSignButton(HomePage.java:59)
+at AmazonTest.FailSignIn_WithWrongCred.SignIn(FailSignIn_WithWrongCred.java:16)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -65,25 +72,26 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePageTest -->
-      </class> <!-- AmazonTest.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- SignIn -->
+      </class> <!-- AmazonTest.FailSignIn_WithWrongCred -->
+      <class name="AmazonTest.HelloSignInTest">
+        <test-method signature="HelloSignInTestMethod()[pri:0, instance:AmazonTest.HelloSignInTest@5038d0b5]" started-at="2022-07-30T12:05:15 IST" name="HelloSignInTestMethod" finished-at="2022-07-30T12:05:37 IST" duration-ms="21746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelloSignInTestMethod -->
+      </class> <!-- AmazonTest.HelloSignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
