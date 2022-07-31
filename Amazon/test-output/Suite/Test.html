@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 30 12:04:52 IST 2022</td>
+<td>Started on:</td><td>Sun Jul 31 21:08:15 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>79 seconds (79347 ms)</td>
+<tr><td>Total time:</td><td>90 seconds (90489 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AmazonTest.FailSignIn_WithWrongCred.SignIn()'><b>SignIn</b><br>Test class: AmazonTest.FailSignIn_WithWrongCred</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+<td title='AmazonTest.FailSignIn_WithWrongCredTest.SignIn()'><b>SignIn</b><br>Test class: AmazonTest.FailSignIn_WithWrongCredTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;((//*[contains(text(),&apos;Hello, Sign in&apos;)])[1]/../..)&quot;}
   (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
 System info: host: &apos;LAPTOP-00TCO18I&apos;, ip: &apos;192.168.29.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0236fdaa4095a8ec2c3ab26f595c7f94, clickElement {id=5d7a19a7-1983-4ece-9490-3ae3201ecf1a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55610/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0236fdaa4095a8ec2c3ab26f595c7f94)] -&gt; xpath: (//*[(text()=&apos;Sign in&apos;)])[1]]
-Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
+Command: [e2cfec40769dd099bc24e862105e4d17, findElement {using=xpath, value=((//*[contains(text(),&apos;Hello, Sign in&apos;)])[1]/../..)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55756/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2cfec40769dd099bc24e862105e4d17
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -92,25 +92,28 @@ Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pageObjects.HomePage.moveHoverClickOnSignButton(HomePage.java:59)
-	at AmazonTest.FailSignIn_WithWrongCred.SignIn(FailSignIn_WithWrongCred.java:16)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at pageObjects.HomePage.SignInMethod(HomePage.java:48)
+	at pageObjects.HomePage.moveHoverClickOnSignButton(HomePage.java:54)
+	at AmazonTest.FailSignIn_WithWrongCredTest.SignIn(FailSignIn_WithWrongCredTest.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace535392310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace535392310'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace561934083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace561934083'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;((//*[contains(text(),&apos;Hello, Sign in&apos;)])[1]/../..)&quot;}
   (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
 System info: host: &apos;LAPTOP-00TCO18I&apos;, ip: &apos;192.168.29.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0236fdaa4095a8ec2c3ab26f595c7f94, clickElement {id=5d7a19a7-1983-4ece-9490-3ae3201ecf1a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55610/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0236fdaa4095a8ec2c3ab26f595c7f94)] -&gt; xpath: (//*[(text()=&apos;Sign in&apos;)])[1]]
-Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
+Command: [e2cfec40769dd099bc24e862105e4d17, findElement {using=xpath, value=((//*[contains(text(),&apos;Hello, Sign in&apos;)])[1]/../..)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55756/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2cfec40769dd099bc24e862105e4d17
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,10 +126,13 @@ Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pageObjects.HomePage.moveHoverClickOnSignButton(HomePage.java:59)
-	at AmazonTest.FailSignIn_WithWrongCred.SignIn(FailSignIn_WithWrongCred.java:16)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at pageObjects.HomePage.SignInMethod(HomePage.java:48)
+	at pageObjects.HomePage.moveHoverClickOnSignButton(HomePage.java:54)
+	at AmazonTest.FailSignIn_WithWrongCredTest.SignIn(FailSignIn_WithWrongCredTest.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,8 +157,8 @@ Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </pre></div></td>
-<td>16</td>
-<td>AmazonTest.FailSignIn_WithWrongCred@32115b28</td></tr>
+<td>8</td>
+<td>AmazonTest.FailSignIn_WithWrongCredTest@3e78b6a5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -162,20 +168,25 @@ Session ID: 0236fdaa4095a8ec2c3ab26f595c7f94
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AmazonTest.SportsAndFitnessTest.HelloSignInTestMethod()'><b>HelloSignInTestMethod</b><br>Test class: AmazonTest.SportsAndFitnessTest</td>
-<td></td>
-<td>23</td>
-<td>AmazonTest.SportsAndFitnessTest@503f91c3</td></tr>
-<tr>
 <td title='AmazonTest.HelloSignInTest.HelloSignInTestMethod()'><b>HelloSignInTestMethod</b><br>Test class: AmazonTest.HelloSignInTest</td>
 <td></td>
 <td>21</td>
-<td>AmazonTest.HelloSignInTest@5038d0b5</td></tr>
+<td>AmazonTest.HelloSignInTest@60db1c0e</td></tr>
+<tr>
+<td title='AmazonTest.HomePageTest.HomePageTest()'><b>HomePageTest</b><br>Test class: AmazonTest.HomePageTest</td>
+<td></td>
+<td>17</td>
+<td>AmazonTest.HomePageTest@769a1df5</td></tr>
 <tr>
 <td title='AmazonTest.SportsAndFitnessTest.SportsAndFitnessTestMethod()'><b>SportsAndFitnessTestMethod</b><br>Test class: AmazonTest.SportsAndFitnessTest</td>
 <td></td>
 <td>16</td>
-<td>AmazonTest.SportsAndFitnessTest@503f91c3</td></tr>
+<td>AmazonTest.SportsAndFitnessTest@2f67a4d3</td></tr>
+<tr>
+<td title='AmazonTest.SportsAndFitnessTest.HelloSignInTestMethod()'><b>HelloSignInTestMethod</b><br>Test class: AmazonTest.SportsAndFitnessTest</td>
+<td></td>
+<td>24</td>
+<td>AmazonTest.SportsAndFitnessTest@2f67a4d3</td></tr>
 </table><p>
 </body>
 </html>

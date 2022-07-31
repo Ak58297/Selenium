@@ -3,15 +3,16 @@
 <suite name="Suite" parallel="tests">
 
 <listeners>
-		<listener class-name="AmazonTest.Listener"/>
+		<listener class-name="AmazonTest.ListenerTest"/>
 	</listeners>
 
   <test thread-count="5" name="Test">
     <classes>
       <class name="AmazonTest.SportsAndFitnessTest"/>
       <class name="AmazonTest.HelloSignInTest"/>
-      <class name="AmazonTest.FailSignIn_WithWrongCred"/>
-      <class name="AmazonTest.Listener"/>
+      <class name="AmazonTest.FailSignIn_WithWrongCredTest"/>
+      <class name="AmazonTest.HomePageTest"/> 
+      <class name="AmazonTest.ListenerTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

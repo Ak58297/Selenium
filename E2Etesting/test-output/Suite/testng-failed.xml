@@ -4,18 +4,32 @@
   <listeners>
     <listener class-name="AcademyPackage.ListnerClass"/>
   </listeners>
+  <test parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="AcademyPackage.SlidderTest">
+        <methods>
+          <include name="InitializeThedriver"/>
+        </methods>
+      </class> <!-- AcademyPackage.SlidderTest -->
+      <class name="AcademyPackage.TestingUIpageTest">
+        <methods>
+          <include name="homePage"/>
+          <include name="Initializedriver"/>
+          <include name="sortPage"/>
+        </methods>
+      </class> <!-- AcademyPackage.TestingUIpageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
   <test parallel="tests" name="Test1(failed)">
     <classes>
       <class name="AcademyPackage.SlidderTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="Initializedriver"/>
+          <include name="InitializeThedriver"/>
           <include name="TestSlidderPage"/>
         </methods>
       </class> <!-- AcademyPackage.SlidderTest -->
       <class name="AcademyPackage.TestingUIpageTest">
         <methods>
-          <include name="closeBrowser"/>
           <include name="Initializedriver"/>
         </methods>
       </class> <!-- AcademyPackage.TestingUIpageTest -->

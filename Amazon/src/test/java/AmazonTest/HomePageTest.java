@@ -25,7 +25,7 @@ public class HomePageTest extends NavigateToURL {
 		
 		h.compareTwoStringOnHomePage();		
 		h.ScrollToBottomAndThenToTop();
-		CloseTheBrowser.CloseCurrentBrowser();
+		//CloseTheBrowser.CloseCurrentBrowser();
 		
 	}
 }

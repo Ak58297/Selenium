@@ -1,7 +1,5 @@
 package AmazonTest;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -13,7 +11,7 @@ import com.aventstack.extentreports.Status;
 
 import baseTest.ReusableMethods;
 
-public class Listener implements ITestListener {
+public class ListenerTest implements ITestListener {
 	ExtentTest test;
 	ExtentReports extent=ReusableMethods.config();
 	ThreadLocal<ExtentTest> extentTest=new ThreadLocal<ExtentTest>(); 
