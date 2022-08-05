@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import baseTest.DriverInitialization;
 
 public class HelloSignInPage extends DriverInitialization {
-	By Allbutton = By.xpath("//a[@id=\"nav-hamburger-menu\"]");
+	private By Allbutton = By.xpath("//a[@id=\"nav-hamburger-menu\"]");  //Encapsulation
 	By SportsItem = By.xpath("(//*[contains(text(),'Sports and Outdoors')])[1]");
 	By SportsItem2 = By.xpath("(//*[contains(text(),'Sports and Outdoors')])[2]");
 	By SeeAllButton1=By.xpath("(//div[contains(text(),'see all')])[1]");
