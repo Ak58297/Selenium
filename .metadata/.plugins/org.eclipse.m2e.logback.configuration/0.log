@@ -9887,3 +9887,17 @@ org.eclipse.core.runtime.CoreException: Launch configuration Tests references no
 2022-08-04 11:30:08,162 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\test\resources
 2022-08-04 11:30:36,888 [Worker-117: Launching Sort] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-08-04 11:30:36,889 [Worker-117: Launching Sort] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\main\resources
+2022-08-04 11:30:36,890 [Worker-117: Launching Sort] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-04 11:30:36,891 [Worker-117: Launching Sort] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\test\resources
+2022-08-05 14:44:01,927 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 14:44:01,932 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-08-05 14:44:01,936 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 14:44:01,936 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-08-05 14:44:18,562 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 14:44:18,566 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\main\resources
+2022-08-05 14:44:18,569 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 14:44:18,570 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\test\resources
+2022-08-05 14:44:48,880 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 14:44:48,881 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\main\resources
+2022-08-05 14:44:48,882 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 14:44:48,883 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\test\resources
