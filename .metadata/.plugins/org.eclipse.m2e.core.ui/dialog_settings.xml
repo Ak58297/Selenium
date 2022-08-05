@@ -50,7 +50,6 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Sterams.JavaStreams"/>
 			<item value="DemoPackage"/>
 			<item value="ExcelTest.DataDrivenFrameWork"/>
 			<item value="DataDrivenFrameWork.ExcelTest"/>
@@ -59,7 +58,6 @@
 			<item value="AcademyPackage"/>
 		</list>
 		<list key="groupId">
-			<item value="Sterams"/>
 			<item value="Report"/>
 			<item value="ExcelTest"/>
 			<item value="DataDrivenFrameWork"/>
@@ -68,7 +66,6 @@
 			<item value="Academy"/>
 		</list>
 		<list key="artifactId">
-			<item value="JavaStreams"/>
 			<item value="ExtentReport"/>
 			<item value="DataDrivenFrameWork"/>
 			<item value="ExcelTest"/>
