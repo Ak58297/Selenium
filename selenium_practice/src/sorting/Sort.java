@@ -34,7 +34,7 @@ public class Sort {
 		driver.switchTo().window(i.next());
 		
 		}
-		//false line added
+		
 		driver.findElement(By.xpath("//*[@class='sort-icon sort-descending']")).click();
 		List<WebElement> items=driver.findElements(By.xpath("//tr/td[1]"));
 		

@@ -9901,3 +9901,31 @@ org.eclipse.core.runtime.CoreException: Launch configuration Tests references no
 2022-08-05 14:44:48,881 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\main\resources
 2022-08-05 14:44:48,882 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-08-05 14:44:48,883 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\test\resources
+2022-08-05 15:07:26,640 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 15:07:26,641 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\main\resources
+2022-08-05 15:07:26,643 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 15:07:26,644 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\test\resources
+2022-08-05 15:08:12,049 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-05 15:11:39,768 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-05 15:13:19,877 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:19,878 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\main\resources
+2022-08-05 15:13:19,880 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:19,881 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Amazon\src\test\resources
+2022-08-05 15:13:21,079 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 15:13:21,080 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Assigments\src\main\resources
+2022-08-05 15:13:21,081 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 15:13:21,082 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\Assigments\src\test\resources
+2022-08-05 15:13:21,945 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:21,945 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\DataDrivenFrameWork\src\main\resources
+2022-08-05 15:13:21,946 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:21,946 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\DataDrivenFrameWork\src\test\resources
+2022-08-05 15:13:23,020 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:23,021 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\E2Etesting\src\main\resources
+2022-08-05 15:13:23,023 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:23,024 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\E2Etesting\src\test\resources
+2022-08-05 15:13:23,453 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:23,454 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\ExtentReport\src\main\resources
+2022-08-05 15:13:23,454 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-05 15:13:23,455 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\ExtentReport\src\test\resources
+2022-08-05 15:13:24,276 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-05 15:13:24,277 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ABHISHEK KUMAR\Selenium_Workspace\selenium_practice\src\main\resources
